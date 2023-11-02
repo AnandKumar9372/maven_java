@@ -6,6 +6,7 @@ pipeline{
           echo 'building the project'
           sh 'mvn validate'
     }
+    }
      stage("test"){
        steps{
           echo 'testing the project '
@@ -21,4 +22,4 @@ pipeline{
     }
   }
 }
-}
+
